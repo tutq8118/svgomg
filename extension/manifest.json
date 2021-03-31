@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "SVGOMG",
+  "description": "Use SVGOMG right on the browser toolbar for optimizing SVG vector graphics files",
+  "version": "0.0.1",
+  "browser_action": {
+    "default_icon": {
+      "16": "/imgs/16x16.png",
+      "48": "/imgs/48x48.png",
+      "128": "/imgs/128x128.png"
+    },
+    "default_popup": "index.html"
+  },
+  "options_page": "index.html",
+  "icons": {
+    "16": "/imgs/16x16.png",
+    "48": "/imgs/48x48.png",
+    "128": "/imgs/128x128.png"
+  }
+}
