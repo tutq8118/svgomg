@@ -1,5 +1,5 @@
-document.querySelector(".preloader").addEventListener("click", function(e) {
-    ga("send", "event", "preloader", "clicked"), this.className = "preloader active"
+document.querySelector(".preloader").addEventListener("click", function() {
+    this.className = "preloader active"
 }), requestAnimationFrame(function() {
     requestAnimationFrame(function() {
         ["css/all.css", "https://fonts.googleapis.com/css?family=Roboto:400,700|Inconsolata"].forEach(function(e) {
