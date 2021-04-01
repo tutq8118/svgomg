@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "SVGOMG",
-  "description": "Use SVGOMG right on the browser toolbar for optimizing SVG vector graphics files",
+  "description": "Use instantly SVGOMG which is a SVGO's Missing GUI tool for optimizing SVG vector graphics files, right on the browser toolbar",
   "version": "0.0.1",
   "browser_action": {
     "default_icon": {
